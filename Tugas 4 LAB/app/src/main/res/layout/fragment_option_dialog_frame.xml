@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/card"
+    android:padding="20dp"
+    tools:context=".optionDialogFrame">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Apakah Anda yakin ingin menghapus data ini?"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/dialog_btn_batal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Batal"
+        android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/dialog_btn_hapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Hapus"
+            android:layout_margin="5dp"
+           />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
